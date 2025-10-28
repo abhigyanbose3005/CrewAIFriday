@@ -1,0 +1,16 @@
+credentials:
+  usernames:
+    user:
+      email: user@tcs.com
+      name: user
+      password: userpwd
+      roles: [user]
+    admin:
+      email: admin@tcs.com
+      name: Administrator
+      password: adminpwd
+      roles: ["admin"]
+cookie:
+  expiry_days: 30
+  key: cookie1
+  name: temporary_cookie
