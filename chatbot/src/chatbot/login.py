@@ -76,10 +76,6 @@ if st.session_state.get('authentication_status'):
         "🏠︎ Home": [
             st.Page(Path(conf.PAGES_DIR, "home.py"), title = "Apps", icon = ":material/home:", default = True),
         ],
-#        "♕ Apps": get_streamlit_pages(),
-#        "❔ Help": [
-#            st.Page(Path(conf.PAGES_DIR, "about.py"), title = "About", icon = ":material/info:"),
-#        ]
     }
     
     page = st.navigation(pages, position = "top", expanded = True)
