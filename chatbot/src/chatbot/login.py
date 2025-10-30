@@ -74,7 +74,7 @@ if st.session_state.get('authentication_status'):
     
     pages = {
         "🏠︎ Home": [
-            st.Page(Path(conf.PAGES_DIR, "home.py"), title = "Apps", icon = ":material/home:", default = True),
+            st.Page(Path(conf.PAGES_DIR, "home1.py"), title = "Apps", icon = ":material/home:", default = True),
         ],
 #        "♕ Apps": get_streamlit_pages(),
 #        "❔ Help": [
